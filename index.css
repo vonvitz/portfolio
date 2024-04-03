@@ -1,0 +1,61 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#von-brand {
+  font-weight: 500;
+  /* font-style: italic; */
+}
+/* * {
+  border: 1px solid red;
+} */
+
+.logo {
+  animation: slideRight 1s ease forwards;
+}
+
+/* keyframes animation css */
+@keyframes slideRight {
+  0% {
+    transform: translate(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+#navmenu a {
+  animation: slideTop 0.5s ease forwards;
+  animation-delay: calc(0.2s);
+}
+#navmenu a:hover {
+  color: white;
+}
+#navmenu a:active {
+  color: #6c63ff;
+}
+
+@keyframes slideTop {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.purple {
+  color: #6c63ff;
+}
+
+.fb {
+  font-weight: bold;
+}
